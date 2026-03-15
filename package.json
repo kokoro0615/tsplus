@@ -1,14 +1,18 @@
 {
-  "name": "tsplus",
+  "name": "prime-concept-clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "bash ./scripts/dev-server.sh start",
+    "dev:status": "bash ./scripts/dev-server.sh status",
+    "dev:stop": "bash ./scripts/dev-server.sh stop",
+    "dev:restart": "bash ./scripts/dev-server.sh restart",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@playwright/test": "^1.58.2",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"

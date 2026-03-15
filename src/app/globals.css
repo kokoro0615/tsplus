@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #072c70;
+  --color-accent: #2cbef1;
+  --color-accent-dark: #007fbb;
+  --color-accent-mid: #139bcb;
+  --color-text: #131313;
+  --color-text-muted: #777;
+  --color-bg-gray: #f4f4f4;
+  --color-border: #d6d6d6;
+  --color-border-light: #ececec;
+
+  --font-sans: var(--font-noto-serif-jp), "Noto Serif JP", "Hiragino Mincho ProN", "Hiragino Mincho Pro", YuMincho, serif;
+  --font-serif: var(--font-noto-serif-jp), "Noto Serif JP", "Hiragino Mincho ProN", "Hiragino Mincho Pro", YuMincho, serif;
+  --font-display: var(--font-noto-serif-jp), "Noto Serif JP", "Hiragino Mincho ProN", "Hiragino Mincho Pro", YuMincho, serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  font-size: 15px;
+  line-height: 1.8;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  color: #fff;
+  background: #072c70;
+}
+
+.mega-menu-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mega-menu-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mega-menu-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
 }
