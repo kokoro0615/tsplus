@@ -30,7 +30,7 @@ export default function ServiceSection() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 />
               ) : null}
-              <div className="absolute inset-0 bg-[#072c70]/45 transition-colors duration-300 group-hover:bg-[#072c70]/58" />
+              <div className="absolute inset-0 bg-[#1a2744]/45 transition-colors duration-300 group-hover:bg-[#1a2744]/58" />
               <div className="relative flex h-full flex-col justify-between p-7 lg:p-9">
                 <div>
                   <h3 className="text-xl font-bold tracking-[0.03em]">{service.title}</h3>
@@ -47,7 +47,7 @@ export default function ServiceSection() {
                       <p key={item.label}>{item.label}</p>
                     ))}
                   </div>
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full border border-white/60 transition-all duration-300 group-hover:bg-[#072c70] group-hover:border-[#072c70]">
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full border border-white/60 transition-all duration-300 group-hover:bg-[#7a1b2d] group-hover:border-[#7a1b2d]">
                     <svg viewBox="0 0 20 20" className="size-4 fill-current">
                       <path d="m7.5 4.5 5.5 5.5-5.5 5.5 1.4 1.4 6.9-6.9-6.9-6.9-1.4 1.4Z" />
                     </svg>

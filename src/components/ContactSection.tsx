@@ -7,7 +7,7 @@ import {
 
 function ConsultationIcon() {
   return (
-    <svg viewBox="0 0 96 96" className="h-20 w-20 text-[#163f8c]">
+    <svg viewBox="0 0 96 96" className="h-20 w-20 text-[#7a1b2d]">
       <path
         d="M24 18h20c10 0 18 8 18 18s-8 18-18 18H34v24H24V18Zm10 10v16h10c4.4 0 8-3.6 8-8s-3.6-8-8-8H34Z"
         fill="currentColor"
@@ -19,14 +19,14 @@ function ConsultationIcon() {
 
 function MagazineIcon() {
   return (
-    <div className="font-display text-[5rem] leading-none text-[#163f8c]">@</div>
+    <div className="font-display text-[5rem] leading-none text-[#7a1b2d]">@</div>
   );
 }
 
 export default function ContactSection() {
   return (
     <section className="bg-white">
-      <div className="bg-[linear-gradient(90deg,#072c70_0%,#0c3a8e_52%,#072c70_100%)] text-white">
+      <div className="bg-[linear-gradient(90deg,#7a1b2d_0%,#1a2744_52%,#7a1b2d_100%)] text-white">
         <div className="mx-auto max-w-[1500px] px-6 py-16 lg:flex lg:w-[90%] lg:gap-10 lg:px-0 lg:py-[7.5rem]">
           <div className="lg:w-[42%]">
             <h2 className="font-display text-[3rem] leading-none tracking-[0.04em] lg:text-[4rem]">
@@ -52,7 +52,7 @@ export default function ContactSection() {
                   >
                     <span className="relative block pl-8">
                       <span className="absolute left-0 top-0.5 flex size-[18px] items-center justify-center rounded-full border border-[#d4d4d4] bg-white">
-                        <svg viewBox="0 0 12 12" className="size-2.5 fill-[#072c70]">
+                        <svg viewBox="0 0 12 12" className="size-2.5 fill-[#7a1b2d]">
                           <path d="M3 2.25 8.25 6 3 9.75V2.25Z" />
                         </svg>
                       </span>
@@ -104,7 +104,7 @@ export default function ContactSection() {
                 <p className="mb-2 inline-block bg-[#131313] px-2 py-1 text-[10px] tracking-[0.14em] text-white">
                   {card.label}
                 </p>
-                <h3 className="text-[1.75rem] font-semibold leading-[1.35] text-[#163f8c] lg:text-[2rem]">
+                <h3 className="text-[1.75rem] font-semibold leading-[1.35] text-[#7a1b2d] lg:text-[2rem]">
                   {card.title}
                 </h3>
                 <p className="mt-2 text-sm leading-[2] text-[#555]">{card.description}</p>

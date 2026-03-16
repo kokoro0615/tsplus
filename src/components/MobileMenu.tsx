@@ -48,7 +48,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     <div key={group.title} className="border-t border-white/80 px-5 py-4">
                       <a
                         href={group.href}
-                        className="mb-2 block text-sm font-semibold text-[#072c70]"
+                        className="mb-2 block text-sm font-semibold text-[#7a1b2d]"
                         onClick={onClose}
                       >
                         {group.title}
@@ -90,8 +90,8 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 href={link.href}
                 className={`block rounded-sm border px-4 py-3 text-center text-sm font-medium tracking-[0.05em] ${
                   index === NAV_CTA_LINKS.length - 1
-                    ? "border-[#072c70] bg-[#072c70] text-white"
-                    : "border-[#072c70] text-[#072c70]"
+                    ? "border-[#7a1b2d] bg-[#7a1b2d] text-white"
+                    : "border-[#7a1b2d] text-[#7a1b2d]"
                 }`}
                 onClick={onClose}
               >

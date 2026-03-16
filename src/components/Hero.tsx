@@ -46,9 +46,9 @@ export default function Hero() {
           </div>
           <a
             href={HERO.ctaHref}
-            className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#072c70] px-5 py-3 text-[11px] font-medium tracking-[0.08em] shadow-[0_10px_28px_rgba(7,44,112,0.3)] transition-opacity duration-200 hover:opacity-80 lg:mt-10"
+            className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#7a1b2d] px-5 py-3 text-[11px] font-medium tracking-[0.08em] shadow-[0_10px_28px_rgba(122,27,45,0.3)] transition-opacity duration-200 hover:opacity-80 lg:mt-10"
           >
-            <span className="flex size-5 items-center justify-center rounded-full bg-white text-[#072c70]">
+            <span className="flex size-5 items-center justify-center rounded-full bg-white text-[#7a1b2d]">
               <svg viewBox="0 0 12 12" className="size-2.5 fill-current">
                 <path d="M3 2.25 8.25 6 3 9.75V2.25Z" />
               </svg>

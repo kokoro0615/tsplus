@@ -40,7 +40,7 @@ export default function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
   return (
     <div
       ref={menuRef}
-      className={`absolute inset-x-0 top-full hidden overflow-hidden border-t border-white/10 bg-[#139bcb] text-white transition-all duration-[450ms] lg:block ${
+      className={`absolute inset-x-0 top-full hidden overflow-hidden border-t border-white/10 bg-[#1a2744] text-white transition-all duration-[450ms] lg:block ${
         isOpen ? "max-h-[760px] opacity-100" : "max-h-0 opacity-0"
       }`}
       onMouseLeave={onClose}

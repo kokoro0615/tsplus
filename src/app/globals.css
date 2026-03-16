@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #072c70;
-  --color-accent: #2cbef1;
-  --color-accent-dark: #007fbb;
-  --color-accent-mid: #139bcb;
+  --color-primary: #7a1b2d;
+  --color-accent: #1a2744;
+  --color-accent-dark: #121d3c;
+  --color-accent-mid: #1a2744;
   --color-text: #131313;
   --color-text-muted: #777;
   --color-bg-gray: #f4f4f4;
@@ -47,7 +47,7 @@ button {
 
 ::selection {
   color: #fff;
-  background: #072c70;
+  background: #7a1b2d;
 }
 
 .mega-menu-scroll::-webkit-scrollbar {

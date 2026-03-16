@@ -27,8 +27,8 @@ export default function Header() {
             className="shrink-0 transition-opacity duration-200 hover:opacity-70"
           >
             <Image
-              src="/assets/header/logo.jpg"
-              alt="プライムコンセプト"
+              src="/assets/header/logo.svg"
+              alt="ティーズプラス"
               width={238}
               height={41}
               className="h-[28px] w-auto lg:h-[33px]"
@@ -37,7 +37,7 @@ export default function Header() {
           </Link>
 
           <nav
-            className="hidden items-center gap-5 text-[11px] font-medium tracking-[0.04em] text-[#131313] lg:flex"
+            className="hidden items-center gap-5 text-[13px] font-medium tracking-[0.04em] text-[#131313] lg:flex"
             aria-label="Primary"
           >
             {NAV_LINKS.map((link) =>
@@ -45,7 +45,7 @@ export default function Header() {
                 <button
                   key={link.label}
                   type="button"
-                  className="flex items-center gap-1 py-8 transition-colors duration-200 hover:text-[#072c70]"
+                  className="flex items-center gap-1 py-8 transition-colors duration-200 hover:text-[#7a1b2d]"
                   onClick={() => setIsMegaMenuOpen((open) => !open)}
                   onMouseEnter={() => setIsMegaMenuOpen(true)}
                   aria-expanded={isMegaMenuOpen}
@@ -70,7 +70,7 @@ export default function Header() {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="py-8 transition-colors duration-200 hover:text-[#072c70]"
+                  className="py-8 transition-colors duration-200 hover:text-[#7a1b2d]"
                 >
                   {link.label}
                 </a>
@@ -82,7 +82,7 @@ export default function Header() {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="border-b border-transparent py-8 transition-colors duration-200 hover:border-[#072c70] hover:text-[#072c70]"
+                  className="border-b border-transparent py-8 transition-colors duration-200 hover:border-[#7a1b2d] hover:text-[#7a1b2d]"
                 >
                   {link.label}
                 </a>

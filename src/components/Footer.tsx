@@ -137,7 +137,7 @@ export default function Footer() {
             />
             <p className="text-xs leading-[2] text-[#555]">
               {PRIVACY.description}{" "}
-              <a href={PRIVACY.href} className="text-[#072c70] underline-offset-2 hover:underline">
+              <a href={PRIVACY.href} className="text-[#7a1b2d] underline-offset-2 hover:underline">
                 {PRIVACY.label}
               </a>
             </p>

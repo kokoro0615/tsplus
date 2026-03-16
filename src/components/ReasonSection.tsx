@@ -47,7 +47,7 @@ export default function ReasonSection() {
               className="mt-6 inline-flex items-center gap-3 text-sm text-[#131313] transition-opacity duration-200 hover:opacity-70"
             >
               <span className="flex size-[18px] items-center justify-center rounded-full border border-[#d4d4d4]">
-                <svg viewBox="0 0 12 12" className="size-2.5 fill-[#072c70]">
+                <svg viewBox="0 0 12 12" className="size-2.5 fill-[#7a1b2d]">
                   <path d="M3 2.25 8.25 6 3 9.75V2.25Z" />
                 </svg>
               </span>

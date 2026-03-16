@@ -50,8 +50,8 @@ export default function NewsSection() {
               <button
                 key={category.value}
                 type="button"
-                className={`transition-colors duration-200 hover:text-[#072c70] ${
-                  activeCategory === category.value ? "text-[#072c70]" : ""
+                className={`transition-colors duration-200 hover:text-[#7a1b2d] ${
+                  activeCategory === category.value ? "text-[#7a1b2d]" : ""
                 }`}
                 onClick={() =>
                   startTransition(() => {
@@ -70,7 +70,7 @@ export default function NewsSection() {
           <button
             type="button"
             onClick={() => shiftNews("prev")}
-            className="absolute left-0 top-[38%] z-10 hidden size-12 -translate-x-1/2 items-center justify-center rounded-full border-2 border-[#072c70] bg-white text-[#072c70] transition-colors duration-200 hover:bg-[#072c70] hover:text-white lg:flex"
+            className="absolute left-0 top-[38%] z-10 hidden size-12 -translate-x-1/2 items-center justify-center rounded-full border-2 border-[#7a1b2d] bg-white text-[#7a1b2d] transition-colors duration-200 hover:bg-[#7a1b2d] hover:text-white lg:flex"
             aria-label="前のニュース"
           >
             <svg viewBox="0 0 20 20" className="size-4 fill-current">
@@ -110,7 +110,7 @@ export default function NewsSection() {
           <button
             type="button"
             onClick={() => shiftNews("next")}
-            className="absolute right-0 top-[38%] z-10 hidden size-12 translate-x-1/2 items-center justify-center rounded-full border-2 border-[#072c70] bg-white text-[#072c70] transition-colors duration-200 hover:bg-[#072c70] hover:text-white lg:flex"
+            className="absolute right-0 top-[38%] z-10 hidden size-12 translate-x-1/2 items-center justify-center rounded-full border-2 border-[#7a1b2d] bg-white text-[#7a1b2d] transition-colors duration-200 hover:bg-[#7a1b2d] hover:text-white lg:flex"
             aria-label="次のニュース"
           >
             <svg viewBox="0 0 20 20" className="size-4 fill-current">
