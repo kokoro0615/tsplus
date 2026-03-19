@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="flex flex-col gap-6 border-b border-[#dcdcdc] pb-10 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-8">
             <Image
-              src="/assets/footer/logo_pc.jpg"
-              alt="プライムコンセプト"
-              width={302}
-              height={52}
-              className="h-9 w-auto lg:h-11"
+              src="/assets/header/logo.svg"
+              alt="ティーズプラス"
+              width={238}
+              height={41}
+              className="h-8 w-auto lg:h-10"
             />
             <a href={BRAND_ROW.noteHref} className="transition-opacity duration-200 hover:opacity-70">
               <Image
