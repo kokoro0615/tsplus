@@ -48,17 +48,17 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     <div key={group.title} className="border-t border-white/80 px-5 py-4">
                       <a
                         href={group.href}
-                        className="mb-2 block text-sm font-semibold text-[#7a1b2d]"
+                        className="mb-2 block text-base font-semibold text-[#7a1b2d]"
                         onClick={onClose}
                       >
                         {group.title}
                       </a>
-                      <ul className="space-y-1.5">
+                      <ul className="space-y-2">
                         {group.items.map((item) => (
                           <li key={item.label}>
                             <a
                               href={item.href}
-                              className="block text-sm leading-relaxed text-[#555]"
+                              className="block text-[15px] leading-[1.7] text-[#555]"
                               onClick={onClose}
                             >
                               {item.label}

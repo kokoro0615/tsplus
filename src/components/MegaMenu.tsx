@@ -41,7 +41,7 @@ export default function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
     <div
       ref={menuRef}
       className={`absolute inset-x-0 top-full hidden overflow-hidden border-t border-white/10 bg-[#1a2744] text-white transition-all duration-[450ms] lg:block ${
-        isOpen ? "max-h-[760px] opacity-100" : "max-h-0 opacity-0"
+        isOpen ? "max-h-[820px] opacity-100" : "max-h-0 opacity-0"
       }`}
       onMouseLeave={onClose}
     >
@@ -51,21 +51,21 @@ export default function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
             <div key={group.title}>
               <a
                 href={group.href}
-                className="mb-3 block text-sm font-semibold tracking-[0.05em] transition-opacity duration-200 hover:opacity-70"
+                className="mb-3 block text-[15px] font-semibold tracking-[0.05em] transition-opacity duration-200 hover:opacity-70 lg:text-base"
               >
                 {group.title}
               </a>
               {"subtitle" in group ? (
-                <p className="mb-3 text-[10px] uppercase tracking-[0.18em] text-white/65">
+                <p className="mb-3 text-xs uppercase tracking-[0.16em] text-white/65">
                   {group.subtitle}
                 </p>
               ) : null}
-              <ul className="space-y-2">
+              <ul className="space-y-2.5">
                 {group.items.map((item) => (
                   <li key={item.label}>
                     <a
                       href={item.href}
-                      className="block text-[11px] leading-relaxed text-white/80 transition-colors duration-200 hover:text-white"
+                      className="block text-[13px] leading-[1.75] text-white/80 transition-colors duration-200 hover:text-white"
                     >
                       {item.label}
                     </a>
