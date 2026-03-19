@@ -10,7 +10,7 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "プライムコンセプト｜ホテル・旅館専門コンサルティング",
+  title: "TsPlus",
   description:
     "ホテル・旅館専門のコンサルティング会社プライムコンセプト。WEB集客、経営改善、インバウンド対策など、宿泊施設の課題をワンストップで解決します。",
 };
