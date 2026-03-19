@@ -57,16 +57,8 @@ export const SERVICE_MENU_ITEMS = [
         href: `${SITE_URL}/service/minpaku.php`,
       },
       {
-        label: "沖縄民泊サポートサービス",
-        href: `${SITE_URL}/service/okinawa.php`,
-      },
-      {
         label: "海外ホテルコンサルティング",
         href: `${SITE_URL}/service/oversea.php`,
-      },
-      {
-        label: "ミニクレーンゲームレンタルサービス",
-        href: `${SITE_URL}/service/cranegame.php`,
       },
     ],
   },
@@ -99,10 +91,6 @@ export const SERVICE_MENU_ITEMS = [
       {
         label: "接客トレーニング",
         href: `${SITE_URL}/service/training.php`,
-      },
-      {
-        label: "覆面調査サービス",
-        href: `${SITE_URL}/service/mask.php`,
       },
     ],
   },
@@ -169,14 +157,6 @@ export const SERVICE_MENU_ITEMS = [
       {
         label: "デジタルマルチリンガルスタッフ",
         href: `${SITE_URL}/service/digital_staff.php`,
-      },
-      {
-        label: "翻訳サービス",
-        href: `${SITE_URL}/service/translations.php`,
-      },
-      {
-        label: "電話通訳サービス",
-        href: `${SITE_URL}/service/malco.php`,
       },
     ],
   },
